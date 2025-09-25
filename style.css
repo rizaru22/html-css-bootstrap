@@ -1,0 +1,32 @@
+:root{
+    --primary-color: #2e7d32;
+    --secondary-color: #fbc02d;
+    --text-color: #263238;
+    --background-color: #fafaf7;
+    --background2:#e8f5e9;
+}
+
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
+
+.text-secondary-color{
+    color:var(--secondary-color)
+}
+
+.bg-secondary-color{
+    background-color: var(--background2);
+}
+
+.selamat-datang{
+    height: 50vh;
+}
+
+.carousel-inner img{
+    height: 85vh;
+    object-fit: cover;
+}
+
+footer{
+    height: 10vh;
+}
